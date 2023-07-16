@@ -1,0 +1,32 @@
+body{
+    border-style: solid;
+    padding-bottom: 75px;
+}
+
+h1{
+    background-color: red;
+    padding-left: 30px;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+.form{
+    padding-left: 20px;
+}
+
+label {
+    display: block;
+    padding-top: 20px;
+    font-size: larger;
+}
+
+input {
+    width: 45%;
+    padding: .5em;
+}
+
+.template {
+    background-color: red;
+}
