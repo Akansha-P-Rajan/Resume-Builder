@@ -10,9 +10,9 @@
     <body>
         <h1>RESUME BUILDER</h1>
         <br>
-        <h3>PERSONAL INFORMATION</h3>
-        <div aria-colcount="2">
-            <div class="form">
+        <div class="forms">
+            <div style="width: 50%;"class="form1">
+                <h3>PERSONAL INFORMATION</h3>
                 <label for="fullName">Name:</label>
                 <input type="text" name="fullName" id="fullName">
                     
@@ -23,14 +23,40 @@
                 <input type="tel" name="contact" id="contact">
 
                 <label for="address">Address:</label>
-                <textarea name="address" id="address" cols= "73%" rows="5"></textarea>
+                <textarea name="address" id="address" cols="65" rows="3"></textarea>
                 
                 <label for="linkedin">Linkedin profile:</label>
-                <input type="text" name="linkedin" id="linkedin"><br><br>
+                <input type="text" name="linkedin" id="linkedin">
                     
-                <input type="submit" value="Submit" id="Submit">
+            </div>
+            <div class="form2">
+                <h3>PROFESSIONAL INFORMATION</h3>
+                <label for="">Objective:</label>
+                <textarea name="Objective" id="Objective" cols="65" rows="3"></textarea>
+                    
+                <label for="">Work Experience:</label>
+                <textarea name="Work" id="Work" cols="65" rows="3"></textarea>
+                    
+                <label for="">Academic Quallifications:</label>
+                <textarea name="Academic" id="Academic" cols="65" rows="3"></textarea>
+
+                <label for="">Certifications:</label>
+                <textarea name="certificate" id="certificate" cols="65" rows="3"></textarea>
             </div>
         </div>
+        <div class="choose">
+            <button id="templates">CHOOSE TEMPLATE</button>
+        </div>
+        <div class="template1">
+            <br>
+            <br>
+            <img style="height: 500px; width: 500px;" src="/home/akash/Pictures/template1.jpg">
+        </div>
+        <div class="template2">
+            <img style="padding-left:600px;  padding-bottom: 1000px; height: 500px; width: 500px;"  src="/home/akash/Pictures/template2.jpg">
+        </div>
+        </div>
+
         <script src="script.js"></script>
     </body>
 </html>
